@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header section */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    overflow: hidden;
+}
+
+header img {
+    width: 20%;
+    margin-left: 250px;
+}
+
+header p {
+    text-align: center;
+    padding: 5px;
+    width: 20%;    
+    margin-right: 300px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color:#0168b3;
+    margin-top: 30px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+header span {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+/* Background image section */
+
+.background {
+    margin: 0;
+}
+
+.background img {
+    width: 100%;
+}
+
+/* Articles section */
+
+.articles {
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+
+.articles div {
+    flex-basis: 20%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.articles p {
+    width: 70%;
+}
+
+.articles h2 {
+    text-transform: uppercase;
+}
+
+.articles h2, .articles p {
+    padding: 10px;
+}
+
+.blue {
+    margin-left: 200px;
+}
+
+.blue h2 {
+    color:#0168b3;
+}
+
+.red {
+    margin-right: 200px;
+}
+
+.red h2{
+    color: #BB0000;
+}
+
+.yellow h2{
+    color:#44544c;
+}
+
+/* Servis section */
+
+.servis * {
+    
+    padding: 5px
+}
+
+.servis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 0;
+    line-height: 30px;
+    color:#0168b3;
+}
+
+.servis h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.servis > p > span {
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.servis p {
+    font-weight: 550;
+}
+
+.servis img {
+    margin: 20px 0;
+}
+
+/* Montujeme section */
+
+.montujeme {
+    padding: 75px 0;
+    line-height: 30px;
+}
+
+.montujeme div {
+    color:#0168b3;
+    text-align: center;    
+    font-weight: 550;
+}
+
+.montujeme > div > h1 {
+    font-size: 50px;
+    letter-spacing: 1px;    
+    padding: 5px;
+}
+
+.montujeme > div > p > span {
+    font-size: 21px;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+/* .servis, .articles, .montujeme, .background {
+    border: 1px solid black;
+} */
+
+.montujeme > div > img {
+    padding: 30px;
+}
