@@ -246,4 +246,12 @@ header span {
     
     .servis {text-align: center;
     }
+
+    .montujeme {
+        background-size: 100% 40%;
+    }
+
+    .montujeme > div > img {
+        margin-top: 0;
+    }
 }
