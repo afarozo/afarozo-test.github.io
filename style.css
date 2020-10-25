@@ -169,3 +169,46 @@ header span {
 .montujeme > div > img {
     padding: 30px;
 }
+
+@media(max-width: 380px) {
+
+    header {
+        width: 100%;
+        justify-content: space-around;
+        align-content: center;
+    }
+
+    header img {
+        width: 30%;
+        margin: 0;
+        pad-top: 5px;
+    }
+
+    header p {
+        text-align: center;
+        padding: 5px;
+        width: 60%;
+        font-size: 15px;
+        text-transform: uppercase;
+        color:#0168b3;
+        margin-top: 0;
+        margin-right: 0px;
+        line-height: 30px;
+    }
+    
+    header > p > span {
+        font-size: 20px;
+    }
+
+    .articles {
+        flex-direction: column;
+    }
+
+    .blue {
+        margin-left: 0;
+    }
+
+    .red {
+        margin-right: 0;
+    }
+}
