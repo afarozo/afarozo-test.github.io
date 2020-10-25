@@ -171,7 +171,14 @@ header span {
     padding: 30px;
 }
 
-@media(max-width: 380px) {
+@media(max-width: 450px) {
+    html {
+        width: 100%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
 
     header {
         width: 100%;
@@ -182,7 +189,6 @@ header span {
     header img {
         width: 30%;
         margin: 0;
-        pad-top: 5px;
     }
 
     header p {
