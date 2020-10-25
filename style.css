@@ -141,8 +141,11 @@ header span {
 /* Montujeme section */
 
 .montujeme {
-    padding: 75px 0;
+    padding: 50px 0;
     line-height: 30px;
+    background-image: linear-gradient(#e6e6e6, white);
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
 }
 
 .montujeme div {
@@ -163,21 +166,14 @@ header span {
     padding: 5px;
 }
 
-/* .servis, .articles, .montujeme, .background {
-    border: 1px solid black;
-} */
-
 .montujeme > div > img {
     padding: 30px;
+    margin-top: 40px;
 }
 
 @media(max-width: 450px) {
     html {
         width: 100%;
-    }
-
-    body {
-        overflow-x: hidden;
     }
 
     header {
