@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+html {
+    width: 100%;
+
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -46,6 +51,7 @@ header span {
 
 .background {
     margin: 0;
+    width: 100%;
 }
 
 .background img {
@@ -174,6 +180,11 @@ header span {
 @media(max-width: 450px) {
     html {
         width: 100%;
+
+    }
+
+    body {        
+        overflow-x: hidden;
     }
 
     header {
@@ -213,5 +224,21 @@ header span {
 
     .red {
         margin-right: 0;
+    }
+
+    .background {
+        text-align: center;
+    }
+
+    .background img {
+        content: url("img/background2.JPG");
+        width: 100%;
+    }
+
+    .servis img {
+        width: 90%;
+    }
+    
+    .servis {text-align: center;
     }
 }
