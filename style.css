@@ -181,10 +181,66 @@ header span {
     margin-top: 40px;
 }
 
+/* Reference section */
+
+.reference {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(#e6e6e6, white);
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+}
+
+.reference-div1 {
+    text-align: center;
+    color:#0168b3;
+    font-weight: 550;
+}
+
+.reference-div1 > p {
+    font-size: 21px;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+.reference-h1 {
+    line-height: 30px;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.reference-div2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+}
+
+.reference-img {
+    width: 100%;
+}
+
+.reference-a {
+    transition: all 0.5s ease;
+    width: 45%;
+    padding: 5px;
+}
+
+.reference-a:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.reference-a:focus {
+    transform: scale(3);
+}
+
+
 @media(max-width: 450px) {
     html {
         width: 100%;
-
     }
 
     body {        
