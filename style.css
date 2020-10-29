@@ -234,12 +234,6 @@ header span {
 }
 
 .reference-a:focus {
-    transform: scale(2);
-    position: fixed;
-    bottom: 1%;
-}
-
-.reference-a:focus {
     transform: scale(1.4);
     position: fixed;
     left: calc(-50vw + 50%);
